@@ -1,58 +1,133 @@
-body {
-	background-color: #eee;
-	font-family: Helvitica, Arial, sans-serif;
-}
-
-#container {
-	background-color: white;
-	width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-a {
-	text-decoration: none;
-	color: red;
-}
-
-h1, h2, h3 {
+*{
 	margin: 0;
-} 
-
-#header {
-	background-color: #66ccff;
-	color: white;
-	text-align: center;
-	padding: 10px;
-} 
-
-#content {
-	padding: 10px;
-}
-
-#nav {
-	width: 180px;
-	float: left;
-}
-
-#nav ul {
-	list-style: none;
 	padding: 0;
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #b2b1b1;
+}
+ #container{
+	 width: 100%;
+	 height: auto;
+	 overflow: auto; 
+	 background: #42455a;
+ }
+ #menu ul{
+	 display: inline-table;
+	 margin: 100px;
+	 float: left;
+	 font-weight: bold;
+ }
+ #menu ul li{
+	 list-style: none;
+	 margin-bottom: 50px;
+	 color: #b2b1b1;
+ }
+ #menu #active{
+	 color: #F37F53;
+ }
+ #content{
+	 padding: 100px 200px;
+	 float: left;
+	 color: #fff;
+ }
+ #footer{
+	 clear: both;
+	 float: right;
+	 margin-right: 20px;
+	 color: grey;
+ }
+ 
+ h1{
+	 margin-bottom: 10px;
+ }
+ 
+ h3{
+	margin-top: 20px;
+	margin-bottom: 20px;
+ }
+ 
+ p{
+	 margin-bottom: 20px;
+ }
+
+div.img-camera {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+	margin-left: 20px;
+}
+img {
+    width: 100px;
+}
+.caption {
+    display: block;
+	margin-top: 10px;
+	Font-weight: bold;
 }
 
-#nav .selected {
-	font-weight: bold;
+div.img-3D-print {
+	display: inline-block;
+    text-align: center;
+	margin-left: 60px;
+	margin-top: 45px;
+}
+img {
+    width: 100px;
+}
+.caption {
+    display: block;
+	
 }
 
-#main {
-	width: 600px;
-	float: right;
+div.img-designing {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+img {
+    width: 100px;
+}
+.caption {
+    display: block;
 }
 
-#footer {
+#aboutdescription{
 	clear: both;
-	padding: 10px;
-	background-color: #999999;
-	color: white;
-	text-align: right;
+	margin-top: 80px;
 }
+
+.img-parametric{
+	width: 500px;
+	margin-bottom: 20px;
+}
+
+.img-chess{
+	width: 500px;
+	margin-bottom: 20px;
+}
+
+.img-nametag{
+	width: 500px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
