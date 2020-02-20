@@ -12,7 +12,9 @@ a{
 	 height: auto;
 	 overflow: auto; 
 	 background: #42455a;
+	 min-height: 100%;
  }
+ 
  #menu ul{
 	 display: inline-table;
 	 margin: 100px;
@@ -28,16 +30,19 @@ a{
 	 color: #F37F53;
  }
  #content{
-	 padding: 100px 200px;
+	 padding: 100px 150px;
 	 float: left;
 	 color: #fff;
  }
+ 
+ 
  #footer{
-	 clear: both;
 	 float: right;
 	 margin-right: 20px;
 	 color: grey;
+     clear: both;
  }
+ 
  
  h1{
 	 margin-bottom: 10px;
@@ -102,25 +107,75 @@ img {
 
 .img-parametric{
 	width: 500px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .img-chess{
 	width: 500px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .img-nametag{
 	width: 500px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
+.img-impossibleobject{
+	width: 500px;
+	margin-bottom: 30px;
+}
 
+.img-overhang{
+	width: 500;
+	margin-bottom: 30px;
+}
 
+.img-laserbox{
+	width: 500;
+	margin-bottom: 30px;
+}
 
+#img-user{
+	width: 80px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 0px;
+}
 
+.img-bridging{
+	width: 500px;
+	margin-bottom: 30px;
+}
 
+.img-infill{
+	width: 500px;
+	margin-bottom: 30px;
+}
 
+.img-tolerance{
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+.img-overhang{
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+.img-arduino{
+	width: 650px;
+	margin-bottom: 30px;
+}
+
+.img-arduinocode{
+	width: 650px;
+	margin-bottom: 30px;
+}
+
+.img-coreldraw1{
+	width: 500px;
+	margin-bottom: 30px;
+}
 
 
 
