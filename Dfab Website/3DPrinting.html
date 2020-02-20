@@ -1,0 +1,46 @@
+<html>
+<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<div id="container">
+		<div id="menu">
+			<ul>
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="About.html">About</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+				<li><a href="FablabSafety.html">Fablab Safety</a></li>
+				<li><a href="Resources.html">Resources</a></li>
+				<li><a href="WebDevelopment.html">Web Development</a></li>
+				<li><a href="CAD.html">CAD</a></li>
+				<li><a id="active" href="3DPrinting.html">3D Printing</a></li>
+				<li><a href="CNCCutting.html">CNC Cutting</a></li>
+				<li><a href="EmbeddedProgramming.html">Embedded Programming</a></li>
+			</ul>
+		</div>
+		
+		<div id="Content">
+			<h1>Fused filament fabrication (FFF) printer</h1>
+			<h2>Printer slicer: Cura from Ulimaker</h2>
+		    <p>After exporting our 3D models from Fusion 360 as .stl format, we load the .stl models <br>in cura and start slicing into .gcode format for the 3D printer.</p>
+		    <p>Before slicing into .gcode format, we have to take in to account of supprt stucture, <br>infill, speed, layers of wall and material 
+			<h2>3D prints.</h2>
+			<p> <b>My team members</b> <br>Ye chun - Bridging Test <br>Fatin - Infill density Sizes <br>Jia Han - Tolerance Test<br>Jin Sheng - Overhang Test</p>
+			<p>We wanted to see how well the printer can bridge from one end to another, <br>therefore Ye Chun had CAD out a simple test of bridging ranging from 5 to 50mm.</p>
+			<img class="img-bridging" src="img/bridging.jpg">
+			<p>There are different percentage of infill density. To see the different sizes, <br>Fatin had to set the indivisual boxes on her CAD model to different infill <br>percentage on cura</p>
+			<img class="img-infill" src="img/infill.jpg">
+			<p>Tolerance is one of the major considerations when it comes to 3d printing, <br>this means that prints may slightly deviate from the actual dimensions. <br>To test it on the printer, Jia Han had do a series of tolerance gauge ranging <br>from 0.1 to 0.5.  we find that 0.3 is the perfect tolerance when designing an <br>item to print.</p>
+			<img class="img-tolerance" src="img/tolerance.jpg">
+			<p>We wanted to test the overhang of the printer, So I created a benchmark of <br>overhangs starting from 90° all the way down to 10°. It seems that the <br>printer has no problem printing even at an angle of 10°</p>
+			<img class="img-overhang" src="img/overhang.jpg">
+			
+		</div>
+		
+		
+			<div id="footer">
+				Copyright &copy; 2020 Teo Jin Sheng
+	</div>
+</body>
+</html>
