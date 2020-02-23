@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #b2b1b1;
+}
+ #container{
+	 width: 100%;
+	 height: auto;
+	 overflow: auto; 
+	 background: #42455a;
+	 min-height: 100%;
+ }
+ 
+ #menu ul{
+	 display: inline-table;
+	 margin: 100px;
+	 float: left;
+	 font-weight: bold;
+ }
+ #menu ul li{
+	 list-style: none;
+	 margin-bottom: 50px;
+	 color: #b2b1b1;
+ }
+ #menu #active{
+	 color: #F37F53;
+ }
+ #content{
+	 padding: 100px 150px;
+	 float: left;
+	 color: #fff;
+ }
+ 
+ 
+ #footer{
+	 float: right;
+	 margin-right: 20px;
+	 color: grey;
+     clear: both;
+ }
+ 
+ 
+ h1{
+	 margin-bottom: 10px;
+ }
+ 
+ h3{
+	margin-top: 20px;
+	margin-bottom: 20px;
+ }
+ 
+ h2{
+	 margin-bottom: 10px;
+ }
+ 
+ p{
+	 margin-bottom: 20px;
+ }
+
+div.img-camera {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+	margin-left: 20px;
+}
+img {
+    width: 100px;
+}
+.caption {
+    display: block;
+	margin-top: 10px;
+	Font-weight: bold;
+}
+
+div.img-3D-print {
+	display: inline-block;
+    text-align: center;
+	margin-left: 60px;
+	margin-top: 45px;
+}
+img {
+    width: 100px;
+}
+.caption {
+    display: block;
+	
+}
+
+div.img-designing {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+img {
+    width: 100px;
+}
+.caption {
+    display: block;
+}
+
+#aboutdescription{
+	clear: both;
+	margin-top: 80px;
+}
+
+.img-fablablight{
+	width: 500px;
+}
+
+.img-fablightangle{
+	width: 804px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.img-parametric{
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+.img-chess{
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+.img-nametag{
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+.img-impossibleobject{
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+.img-cadbase{
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+.img-overhang{
+	width: 500;
+	margin-bottom: 30px;
+}
+
+.img-laserbox{
+	width: 500;
+	margin-bottom: 30px;
+}
+
+.img-fablightcad{
+	width: 500;
+	margin-bottom: 30px;
+}
+
+#img-user{
+	width: 80px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 0px;
+}
+
+.img-3dprintnametag{
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+.img-bridging{
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+.img-infill{
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+.img-tolerance{
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+.img-overhang{
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+.img-3dprintbase{
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+.img-arduino{
+	width: 650px;
+	margin-bottom: 30px;
+}
+
+.img-arduinocode{
+	width: 650px;
+	margin-bottom: 30px;
+}
+
+.img-coreldraw1{
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+.img-lasercutfablab{
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+.img-fablight1pcs{
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
